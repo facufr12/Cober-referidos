@@ -26,7 +26,7 @@ export function Login() {
       {/* Main Content */}
       <main className="flex-1 flex flex-col items-center justify-center px-6 py-8">
         {/* Logo */}
-        <div className="w-32 h-32 mb-6 flex items-center justify-center">
+        <div className="w-20 h-20 mb-6">
           <img src="/logo.png" alt="Cober360" className="w-full h-full object-contain" />
         </div>
 
@@ -107,3 +107,4 @@ export function Login() {
 }
 
 export default Login;
+ 

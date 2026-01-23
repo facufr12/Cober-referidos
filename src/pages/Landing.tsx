@@ -47,26 +47,42 @@ export function Landing() {
 
       {/* Hero Section */}
       <section className="px-4 py-6">
-        <div className="hero-gradient rounded-3xl p-6 relative overflow-hidden">
-          <span className="inline-block bg-primary text-primary-foreground text-xs font-semibold px-4 py-2 rounded-full mb-4 uppercase tracking-wider">
-            Programa de Referidos
-          </span>
-          
-          <h1 className="text-3xl md:text-4xl font-extrabold leading-tight mb-4">
-            Ganá ingresos<br />recomendando<br />salud
-          </h1>
-          
-          <p className="text-foreground/80 mb-6 max-w-xs">
-            Recomendá planes de Medicina Prepaga y cobrá comisiones por cada alta efectiva.
-          </p>
-          
-          <Link
-            to="/registro"
-            className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 py-4 rounded-full transition-all animate-pulse-glow"
-          >
-            Quiero ser referenciador
-            <ArrowRight className="w-5 h-5" />
-          </Link>
+        <div className="rounded-3xl p-6 relative overflow-hidden" style={{ backgroundColor: '#4a3f5f' }}>
+          <div className="flex items-center justify-between gap-6">
+            <div className="flex-1">
+              <span className="inline-block bg-primary text-primary-foreground text-xs font-semibold px-4 py-2 rounded-full mb-4 uppercase tracking-wider">
+                Programa de Referidos
+              </span>
+              
+              <h1 className="text-3xl md:text-4xl font-extrabold leading-tight mb-4 text-white">
+                Recomendá y Ganá
+              </h1>
+              
+              <p className="text-white/90 mb-6 max-w-xs">
+                Recomendá planes de Medicina Prepaga y cobrá comisiones por cada alta efectiva.
+              </p>
+              
+              <Link
+                to="/registro"
+                className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 py-4 rounded-full transition-all animate-pulse-glow"
+              >
+                Quiero ser referenciador
+                <ArrowRight className="w-5 h-5" />
+              </Link>
+              
+              <p className="text-xs text-white/70 mt-4 uppercase tracking-wider" style={{ fontVariant: 'small-caps' }}>
+                *Sin experiencia previa, 100% digital
+              </p>
+            </div>
+            
+            <div className="hidden md:flex flex-shrink-0 items-end h-full">
+              <img 
+                src="/referidos.png" 
+                alt="Referidos" 
+                className="h-80 w-auto object-contain object-bottom"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
