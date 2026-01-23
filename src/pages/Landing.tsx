@@ -1,6 +1,5 @@
 import { ArrowRight, CheckCircle, Menu, Zap, Clock, DollarSign, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
-import doctorIllustration from "@/assets/doctor-illustration.png";
 
 const benefits = [
   {
@@ -68,15 +67,6 @@ export function Landing() {
             Quiero ser referenciador
             <ArrowRight className="w-5 h-5" />
           </Link>
-
-          {/* Doctor Illustration */}
-          <div className="absolute right-0 bottom-0 w-40 h-48 md:w-56 md:h-64">
-            <img 
-              src={doctorIllustration} 
-              alt="Profesional de salud" 
-              className="w-full h-full object-contain object-bottom"
-            />
-          </div>
         </div>
       </section>
 

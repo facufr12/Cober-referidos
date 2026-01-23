@@ -16,8 +16,8 @@
     --popover: 60 6% 18%;
     --popover-foreground: 60 5% 95%;
 
-    /* Primary - Magenta/Fuchsia */
-    --primary: 315 50% 52%;
+    /* Primary - Purple #78358b */
+    --primary: 287 45% 38%;
     --primary-foreground: 0 0% 100%;
 
     /* Secondary - Teal/Cyan */
@@ -27,7 +27,7 @@
     --muted: 60 5% 25%;
     --muted-foreground: 60 5% 65%;
 
-    --accent: 315 50% 52%;
+    --accent: 287 45% 38%;
     --accent-foreground: 0 0% 100%;
 
     /* Success - Green */
@@ -53,7 +53,7 @@
     --border: 60 5% 30%;
     --input: 60 5% 25%;
     --input-border: 100 20% 50%;
-    --ring: 315 50% 52%;
+    --ring: 287 45% 38%;
 
     --radius: 1rem;
 
